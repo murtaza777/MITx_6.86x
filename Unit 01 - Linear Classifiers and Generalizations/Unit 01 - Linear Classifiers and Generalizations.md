@@ -199,7 +199,7 @@ In order for this to be possible at all, you have to have some relationship betw
 Typically, it is assumed that both sets are samples from some large collection of examples as a random subset.
 So you get a random subset as a training set.
 
-#### What is this lecture going to be about? ####
+#### What is this lecture going to be about ?
 
 This lecture we will consider only linear classifiers, such that we keep the problem well generalised (we will return to the question of generalization more formally later on in this course).
 
@@ -225,7 +225,7 @@ The dividing line here is also called **decision boundary**:
 
 So now we need to parameterize the linear classifiers, so that we can effectively search for the right one given the training set.
 
-#### Through the origin classifiers ####
+#### Through the origin classifiers
 
 Definition of a decision boundary through the origin:
 
@@ -245,7 +245,7 @@ Note that this association between the classifier and the parameter vector theta
 There are multiple parameter vectors theta that defined exactly the same classifier.
 The norm of the parameter vector of theta is not relevant in terms of the decision boundary.
 
-#### General linear classifiers ####
+#### General linear classifiers
 
 Decision boundary: $x: \theta \cdot x + \theta_0 = 0$.
 
@@ -618,6 +618,7 @@ This is a problem quadratic in the objective and with linear constraints, and it
 
 Relaxing the loss constraint and incorporate the loss in the objective would still leave the problem as a quadratic one.
 
+This case is also called **maximum margin separator** or **hard margin SVM** to distinguish it from the **soft margin SVM** we saw earlier where, even in cases of separable problems, we allow to trade some misclassifications for a better regularisation.
 
 ## Homework 2
 
